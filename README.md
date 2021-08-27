@@ -1,2 +1,2 @@
 # Clock
-THIS IS ANAnalog Digital clock using HTML CSS JS BY NABEEL SALEEM
+THIS IS AN Analog Digital clock using HTML CSS JS BY NABEEL SALEEM
