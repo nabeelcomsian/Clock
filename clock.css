@@ -1,0 +1,67 @@
+#mainclock{
+    top: 70px;
+    position: relative;
+    margin: auto;
+    
+      height: 40vw;
+    width: 40vw;
+    background: url(clock.jpg)  no-repeat;
+   background-size: 100%;
+}
+h1{font-family: 'Times New Roman', Times, serif;
+border: 2px solid chartreuse ;
+top: -12%;
+position: absolute;
+text-align: center;
+left: 200px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+border: 2px solid chartreuse ;
+position: absolute;
+text-align: center;
+top: 30%;
+left: -40%;
+}
+#hour,#mint,#sec
+{
+    position: absolute;
+    background:black ;
+     border-radius: 10px;
+      
+}
+#hour{
+    height:20%;
+    width: 1%;
+    background-color: black;
+    top: 27%;
+    left: 49.6%;
+    transform-origin: bottom;
+}
+#mint{
+    height:24%;
+    width: 0.8%;
+   background-color: black;
+    top: 24.5%;
+    left: 49.6%;
+    transform-origin: bottom;
+}
+#sec{
+    height:26%;
+    width: 0.5%;
+    background-color: black;
+    top: 22%;
+    right: 49.6%;
+    transform-origin: bottom;
+}
+#digital{
+    margin-top: -18%;
+    margin-bottom: 10px;
+  position: relative;  
+  height: 5vw;
+  width: 70px; ;
+ 
+ left:15% ;
+ display: flex;
+ flex-direction: row;
+}
